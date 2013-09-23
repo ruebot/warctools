@@ -29,5 +29,6 @@ setup(name='hanzo-warctools',
         warclinks=hanzo.warclinks:run
         warcvalid=hanzo.warcvalid:run
         warc2warc=hanzo.warc2warc:run
-    """,
+        warcpayload=hanzo.warcpayload:run
+      """,
     )
